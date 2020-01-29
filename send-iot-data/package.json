@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "simulate:office": "env place=office node index.js",
-    "simulate:home": "env place=home node index.js",
+    "simulate:office": "env threshold=office node index.js",
+    "simulate:home": "env threshold=home node index.js",
     "simulate": "node index.js"
   },
   "keywords": [],
