@@ -1,0 +1,35 @@
+{
+  "deviceConnString": "HostName=...;DeviceId=...;SharedAccessKey=...",
+  "presets" : {
+      "office": {
+          "temp" : {
+              "min": 15,
+              "max": 45
+          },
+          "pressure" : {
+              "min": 900,
+              "max": 1100
+          },
+          "humidity" : {
+              "min": 0.2,
+              "max": 0.5
+          }
+      }
+  },
+  "thresholds" : {
+      "office": {
+          "temp" : {
+              "min": 20,
+              "max": 40
+          },
+          "pressure" : {
+              "min": 950,
+              "max": 1050
+          },
+          "humidity" : {
+              "min": 0.3,
+              "max": 0.5
+          }
+      },
+  }
+}

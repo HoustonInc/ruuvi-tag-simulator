@@ -34,7 +34,7 @@ setInterval(() => {
 
     msg.properties.add("temperatureAlert", temperature > tTemp.max || temperature < tTemp.min ? "true" : "false");
     msg.properties.add("humidityAlert", humidity > tHumidity.max || humidity < tHumidity.min ? "true" : "false");
-    msg.properties.add("pressueAlert", pressure > tPressure.max || pressure < tPressure.min ? "true" : "false");
+    msg.properties.add("pressureAlert", pressure > tPressure.max || pressure < tPressure.min ? "true" : "false");
 
     console.log("Sending message: " + msg.getData());
 
